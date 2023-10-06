@@ -8,6 +8,7 @@
 <!-- UPDATE 3: Provided alt text to enhance accessibility to defined images displayed                       -->
 <!-- UPDATE 4: Amending CSS file to have heading attributes placed in sequential order                      -->
 <!-- UPDATE 5: Amending title to something concise and descriptive                                          -->
+<!-- UPDATE 6: Final refinements                                                                            -->
 
 <head>
     <meta charset="UTF-8" />
@@ -16,6 +17,7 @@
 </head>
 
 <body>
+    <!-- Header section of the web page that contains the reference links aligned to the right of the page -->
     <header class="header">
         <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 40px;">Hori<span class="seo">seo</span>n</h1>
             <div>
@@ -33,10 +35,12 @@
             </div>
     </header>
 
-    <!-- CSS backgound images should not have alternative text -->
+    <!-- Replaced used of div by defining a sections to define the CSS bakcground image spanning across the page and the contents in the lower left frame -->
+    <!-- Rearranged article sections to list solution aspects in alphabetical order                                                                       -->
+    <!-- CSS backgound image should not have alternative text                                                                                             -->
     <section class="hero"></section>
     <section class="content">
-        <article id="online-reputation-management" class="online-reputation-management">
+        <article id="aspect" class="aspect">
             <figure>
                 <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="An image of an open laptop with the word REPUTATION and a bar chart showing an increasing trend displayed."/>
             </figure>
@@ -45,7 +49,7 @@
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article class="search-engine-optimization">
+        <article class="aspect">
             <figure>
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="An image of a closed notebook with S E O on its cover surrounded with a laptop, coffee cup, and stationary."/>
             </figure>
@@ -54,7 +58,7 @@
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-        <article id="social-media-marketing" class="social-media-marketing">
+        <article id="aspect" class="aspect">
             <figure>
                 <img src="./assets/images/social-media-marketing.jpg" class="float-right" alt="An image of a meeting taking place with a number of though bubbles speaking to various social media trend ideas."/>
             </figure>
@@ -64,8 +68,11 @@
             </p>
         </article>
     </section>
+
+    <!-- Rearranged article sections to list benefits in alphabetical order                                                                               -->
+    <!-- Aside has been defined in replacement of the div to display the various benefits of Horiseon's solutions                                         -->
     <aside class="benefits">
-        <article class="benefit-brand">
+        <article class="benefit-item">
             <h2 style="font-size: 35px;">Brand Awareness</h2>
             <figure>
                 <img src="./assets/images/brand-awareness.png" alt="An image of a person with a lightbulb for its head."/>
@@ -74,7 +81,7 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </article>
-        <article class="benefit-cost">
+        <article class="benefit-item">
             <h2 style="font-size: 35px;">Cost Management</h2>
             <figure>
                 <img src="./assets/images/cost-management.png" alt="An image of a cog wheel landing into monetary coins."/>
@@ -83,7 +90,7 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </article>
-        <article class="benefit-lead">
+        <article class="benefit-item">
             <h2 style="font-size: 35px;">Lead Generation</h2>
             <figure>
                 <img src="./assets/images/lead-generation.png" alt="An image of a cog wheel being fed into a funnel to become a monetary coin."/>
@@ -93,11 +100,14 @@
             </p>
         </article>
     </aside>
+
+    <!-- Footer has been defined in replacement of the div to support enhanced web accessibility via HTML semantics                                       -->
     <footer class="footer">
         <h3>Made with ❤️️ by Horiseon</h3>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
+        <!-- Added address semantic to provide student reference for challenge submission                                                                 -->
         <address>
             Updated by: <strong><a href="mailto:AllanYuen@Live.ca">AllanYuen@Live.ca</a></strong>
         </address>
